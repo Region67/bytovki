@@ -405,12 +405,18 @@
         <aside class="sidebar">
             <center><strong>Оставьте заявку</strong><br>
             И мы подберем для вас лучшие условия</center>
-            <ul>
-                <li><a href="/vk-podpishiki.html">Подписчики ВК</a></li>
-                <li><a href="#">Страница 2</a></li>
-                <li><a href="#">Страница 3</a></li>
-                <li><a href="#">Страница 4</a></li>
-            </ul>
+             <form action="#" method="post">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+            
+            <label for="email">Ваш email</label>
+            <input type="email" id="email" name="email" placeholder="Введите ваш email" required>
+            
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" placeholder="Введите ваше сообщение" required></textarea>
+            
+            <button type="submit">Отправить</button>
+        </form>
         </aside>
     </div>
     <footer>
